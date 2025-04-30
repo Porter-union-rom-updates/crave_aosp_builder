@@ -350,7 +350,7 @@ jobs:
         source build/envsetup.sh && \
 
         echo "Repository: ${{ github.repository }}"; \
-        echo "Run ID: ${{ github.run_id }}"; \
+        echo "Run ID: devil"; \
 
         # Build the ROM
         lunch ${{ github.event.inputs.PRODUCT_NAME }}-${{ github.event.inputs.BUILD_TYPE }} && \
